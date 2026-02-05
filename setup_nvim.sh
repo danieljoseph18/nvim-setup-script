@@ -33,7 +33,7 @@ if [ -d "$HOME/.config/nvim" ]; then
 fi
 
 # Clone YOUR repo (Replace with your actual URL)
-git clone https://github.com/YOUR_USERNAME/my-neovim-config.git "$HOME/.config/nvim"
+git clone https://github.com/danieljoseph18/nvim-config.git "$HOME/.config/nvim"
 
 echo ">>> 6. Forcing Neovim to use our custom Tree-Sitter..."
 # Remove the downloaded binary so it uses the cargo installed one
