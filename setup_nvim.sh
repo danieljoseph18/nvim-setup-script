@@ -24,7 +24,7 @@ sudo snap install nvim --classic
 
 echo ">>> 4. Compiling Tree-Sitter CLI (The GLIBC Fix)..."
 # This prevents the version mismatch error we faced
-cargo install tree-sitter-cli
+cargo install tree-sitter-cli --locked
 
 echo ">>> 5. Cloning Your Configuration..."
 # Back up existing config if it exists
