@@ -21,7 +21,7 @@ fi
 
 echo ">>> 3. Building tree-sitter-cli from source (avoids GLIBC 2.39 incompatibility)..."
 if ! command -v tree-sitter &>/dev/null; then
-  cargo install tree-sitter-cli@0.25.6
+  cargo install --locked tree-sitter-cli@0.25.6
 fi
 export PATH="$HOME/.cargo/bin:$PATH"
 
